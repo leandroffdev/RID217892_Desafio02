@@ -1,3 +1,30 @@
 * {
     font-family: "Montserrat", sans-serif;
 }
+.title {
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+header {
+    background-color: #02A28F;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 0.8125rem;
+    padding-left: 156px;
+}
+footer  {
+    background-color: #02A28F;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 1.0625rem;
+}
