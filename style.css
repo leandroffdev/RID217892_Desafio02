@@ -43,6 +43,11 @@ header h1 {
     border-radius: 0.625rem;
     width: 100%;
     margin-bottom: 1.5rem;
+    transition: all .4s;
+}
+#banner-img:hover {
+    transform: scale(1.01);
+    cursor: pointer;
 }
 .last-posts {
     margin: auto;
