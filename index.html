@@ -13,31 +13,31 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="title">
         <h1>The Dev News</h1>
     </header>
     <!-- MAIN -->
     <main>
         <section class="banner">
-            <img src="./assets/banner.svg" alt="">
-            <div id="banner-info">
+            <img id="banner-img" src="./assets/banner.png" alt="">
+            <!-- <div id="banner-info">
                 <span>opnião</span>
                 <h1>Como é ser um desenvolvedor</h1>
                 <p><b>by</b> Fabio Tetsuo</p>
-            </div>
+            </div> -->
         </section>
         <section class="last-posts-title">
-            <h2 class="title">Posts mais recentes</h2>
+            <h2>Posts mais recentes</h2>
             <a href="#">Ver todos</a>
         </section>
         <section class="last-posts">
-            <ul>
-                <li>
+            <ul class="last-posts-list">
+                <li class="last-posts-item">
                     <img src="./assets/post1.svg" alt="">
                     <div class="post-info">
-                        <p>desenvolvimento</p>
-                        <h3>Desenvolvimento mobile</h3>
-                        <p><b>By</b>Fabio Tetsuo</p>
+                        <p id="theme">desenvolvimento</p>
+                        <h3 id="title">Desenvolvimento mobile</h3>
+                        <p><b>By</b> Fabio Tetsuo</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
                             In vitae urna commodo amet congue integer 
@@ -47,12 +47,12 @@
                         <span>22 Agosto 2022</span>
                     </div>
                 </li>
-                <li>
+                <li class="last-posts-item">
                     <img src="./assets/post2.svg" alt="">
                     <div class="post-info">
-                        <p>saúde</p>
-                        <h3>Balancear vida profissional e pessoal</h3>
-                        <p><b>By</b>Ridho Satriawan</p>
+                        <p id="theme">saúde</p>
+                        <h3 id="title">Balancear vida profissional e pessoal</h3>
+                        <p><b>By</b> Ridho Satriawan</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
                             In vitae urna commodo amet congue integer 
@@ -62,12 +62,12 @@
                         <span>22 Agosto 2022</span>
                     </div>
                 </li>
-                <li>
+                <li class="last-posts-item">
                     <img src="./assets/post3.svg" alt="">
                     <div class="post-info">
-                        <p>desenvolvimento</p>
-                        <h3>Configurando VSCode</h3>
-                        <p><b>By</b>Fabio Tetsuo</p>
+                        <p id="theme">desenvolvimento</p>
+                        <h3 id="title">Configurando VSCode</h3>
+                        <p><b>By</b> Fabio Tetsuo</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
                             In vitae urna commodo amet congue integer 
@@ -77,12 +77,12 @@
                         <span>22 Agosto 2022</span>
                     </div>
                 </li>
-                <li>
+                <li class="last-posts-item">
                     <img src="./assets/post4.svg" alt="">
                     <div class="post-info">
-                        <p>produtividade</p>
-                        <h3>2 monitores ou 1 ultrawide</h3>
-                        <p><b>By</b>Fulano da Silva</p>
+                        <p id="theme">produtividade</p>
+                        <h3 id="title">2 monitores ou 1 ultrawide</h3>
+                        <p><b>By</b> Fulano da Silva</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
                             In vitae urna commodo amet congue integer 
@@ -101,23 +101,29 @@
             <h2 class="title" id="pop-posts-title">Posts Populares</h2>
             <div class="pop-posts-item">
                 <img src="./assets/pop-post1.svg" alt="">
-                <h3>Desenvolvimento atual</h3>
-                <p>22 Agosto 2025</p>
+                <div>
+                    <h3>Desenvolvimento atual</h3>
+                    <p>22 Agosto 2025</p>
+                </div>
             </div>
             <div class="pop-posts-item">
                 <img src="./assets/pop-post2.svg" alt="">
-                <h3>GitLab vs GitHub</h3>
-                <p>22 Agosto 2025</p>
+                <div>
+                    <h3>GitLab vs GitHub</h3>
+                    <p>22 Agosto 2025</p>
+                </div>
             </div>
             <div class="pop-posts-item">
                 <img src="./assets/pop-post3.svg" alt="">
-                <h3>Café atrapalha?</h3>
-                <p>22 Agosto 2025</p>
+                <div>
+                    <h3>Café atrapalha?</h3>
+                    <p>22 Agosto 2025</p>
+                </div>
             </div>
         </section>
         <section class="categories">
             <h2 class="title" id="categories-title">Categorias</h2>
-            <ul>
+            <ul class="categories-list">
                 <li>
                     > saude <span>(1)</span>
                 </li>

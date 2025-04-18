@@ -1,21 +1,124 @@
 * {
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    max-width: 1129px;
+    margin: auto;
 }
 .title {
     background-color: #02A28F;
     color: #ffffff;
     padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
 }
 header {
-    background-color: #02A28F;
-    color: #ffffff;
-    font-family: Montserrat;
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 100%;
     letter-spacing: 0%;
     padding: 0.8125rem;
-    padding-left: 156px;
+    padding-left: 9.75rem;
+    grid-column: span 2;
+}
+header h1 {
+    margin-left: 9.75rem;
+}
+#banner-img {
+    border-radius: 0.625rem;
+    margin-left: 8.75rem;
+}
+.last-posts {
+    width: 46.5rem;
+    margin-left: 9.75rem;
+}
+.last-posts-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02A28F;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    margin-left: 9.75rem;
+    margin-bottom: 0.6875rem;
+    border-radius: 0.5rem;
+    max-width: 46.5rem;
+}
+.last-posts-title a {
+    color: #ffffff;
+}
+.last-posts-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    list-style: none;
+}
+.last-posts-item {
+    width: 22.5rem;
+    box-shadow: 0rem 0.625rem 1.25rem 0rem #0000001A;
+    border-radius: 1rem;
+}
+.last-posts-item img {
+    width: 22.5rem;
+    height: 11.9375rem;
+}
+.post-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 12.8125rem;
+}
+.post-info span {
+    color: #616161;
+}
+.last-posts-item #theme {
+    color: #02A28F;
+}
+.last-posts-item h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.last-posts-item p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.pop-posts {
+    display: flex;
+    flex-direction: column;
+    height: 24.75rem;
+}
+.pop-posts-item {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.25rem 0;
+}
+.categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+.categories-list li:first-child {
+    margin-top: 1rem;
+}
+.categories-list li {
+    display: flex;
+    justify-content: space-between;
 }
 footer  {
     background-color: #02A28F;
@@ -27,4 +130,10 @@ footer  {
     letter-spacing: 0%;
     text-align: center;
     padding: 1.0625rem;
+    grid-column: span 2;
+}
+@media screen and (max-width: 70.5625rem) {
+    body {
+        grid-template-columns: 1fr;
+    }
 }
